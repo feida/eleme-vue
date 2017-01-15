@@ -1,0 +1,28 @@
+body, html
+  font-weight: 200
+  font-family: 'PingFang SC', 'STHeitiSC-Light', 'Helvetica-Light', arial, sans-serif
+
+.clearfix
+  display: inline-block
+  &:after
+    display: block
+    content: " "
+    height: 0
+    line-height: 0
+    clear: both
+    visibility: hidden
+
+
+// 适配dpi为 1.5 的屏幕时boder的缩放
+@media (-webkit-min-device-pixel-ratio: 1.5),(min-device-pixel-ratio: 1.5)
+  .border-1px
+    &::after
+      -weblit-transform: scaleY(0.7)
+      transform: scaleY(0.7)
+
+// 适配dpi为 2 的屏幕时boder的缩放
+@media (-webkit-min-device-pixel-ratio: 2),(min-device-pixel-ratio: 2)
+  .border-1px
+    &::after
+      -weblit-transform: scaleY(0.5)
+      transform: scaleY(0.5)
