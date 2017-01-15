@@ -15,15 +15,15 @@
 
 * 商品页面
 
-![image](https://github.com/feida/eleme-vue/tree/master/image-source/home.gif)
+![image](https://github.com/feida/eleme-vue/blob/master/image-source/home.gif)
 
 * 商品详情及评论页
 
-![image](https://github.com/feida/eleme-vue/tree/master/image-source/detail.gif)
+![image](https://github.com/feida/eleme-vue/blob/master/image-source/detail.gif)
 
 * 商家
 
-![image](https://github.com/feida/eleme-vue/tree/master/image-source/seller.gif)
+![image](https://github.com/feida/eleme-vue/blob/master/image-source/seller.gif)
 
 
 ###安装
